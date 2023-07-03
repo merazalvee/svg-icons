@@ -1,17 +1,16 @@
 @font-face {
   font-family: "icomoon";
-  src: url("./fonts/icomoon.eot");
-  src: url("./fonts/icomoon.eot") format("embedded-opentype"),
-    url("./fonts/icomoon.ttf") format("truetype"),
-    url("./fonts/icomoon.woff") format("woff"),
-    url("./fonts/icomoon.svg") format("svg");
+  src: url("fonts/icomoon.eot");
+  src: url("fonts/icomoon.eot") format("embedded-opentype"),
+    url("fonts/icomoon.ttf") format("truetype"),
+    url("fonts/icomoon.woff") format("woff"),
+    url("fonts/icomoon.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
   /* speak: never; */
@@ -26,6 +25,399 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Wallet-Money:before {
+.shakil-lineui-blend:before {
   content: "\e900";
+}
+.shakil-lineui-bluetooth:before {
+  content: "\e901";
+}
+.shakil-lineui-bluetooth-2:before {
+  content: "\e902";
+}
+.shakil-lineui-bluetooth-circle:before {
+  content: "\e903";
+}
+.shakil-lineui-bluetooth-rectangle:before {
+  content: "\e904";
+}
+.shakil-lineui-blur:before {
+  content: "\e905";
+}
+.shakil-lineui-book:before {
+  content: "\e906";
+}
+.shakil-lineui-book-1:before {
+  content: "\e907";
+}
+.shakil-lineui-bookmark:before {
+  content: "\e908";
+}
+.shakil-lineui-bookmark-2:before {
+  content: "\e909";
+}
+.shakil-lineui-book-saved:before {
+  content: "\e90a";
+}
+.shakil-lineui-book-square:before {
+  content: "\e90b";
+}
+.shakil-lineui-box:before {
+  content: "\e90c";
+}
+.shakil-lineui-box-1:before {
+  content: "\e90d";
+}
+.shakil-lineui-box-2:before {
+  content: "\e90e";
+}
+.shakil-lineui-box-add:before {
+  content: "\e90f";
+}
+.shakil-lineui-box-remove:before {
+  content: "\e910";
+}
+.shakil-lineui-box-search:before {
+  content: "\e911";
+}
+.shakil-lineui-box-tick:before {
+  content: "\e912";
+}
+.shakil-lineui-box-time:before {
+  content: "\e913";
+}
+.shakil-lineui-briefcase:before {
+  content: "\e914";
+}
+.shakil-lineui-brifecase-cross:before {
+  content: "\e915";
+}
+.shakil-lineui-brifecase-tick:before {
+  content: "\e916";
+}
+.shakil-lineui-brifecase-timer:before {
+  content: "\e917";
+}
+.shakil-lineui-broom:before {
+  content: "\e918";
+}
+.shakil-lineui-brush:before {
+  content: "\e919";
+}
+.shakil-lineui-brush-1:before {
+  content: "\e91a";
+}
+.shakil-lineui-brush-2:before {
+  content: "\e91b";
+}
+.shakil-lineui-brush-3:before {
+  content: "\e91c";
+}
+.shakil-lineui-bubble:before {
+  content: "\e91d";
+}
+.shakil-lineui-bucket-circle:before {
+  content: "\e91e";
+}
+.shakil-lineui-bucket-square:before {
+  content: "\e91f";
+}
+.shakil-lineui-building:before {
+  content: "\e920";
+}
+.shakil-lineui-building-3:before {
+  content: "\e921";
+}
+.shakil-lineui-building-4:before {
+  content: "\e922";
+}
+.shakil-lineui-buildings:before {
+  content: "\e923";
+}
+.shakil-lineui-buildings-2:before {
+  content: "\e924";
+}
+.shakil-lineui-bag-1:before {
+  content: "\e925";
+}
+.shakil-lineui-bag-timer:before {
+  content: "\e926";
+}
+.shakil-lineui-bank:before {
+  content: "\e927";
+}
+.shakil-lineui-barcode:before {
+  content: "\e928";
+}
+.shakil-lineui-battery-3full:before {
+  content: "\e929";
+}
+.shakil-lineui-battery-charging:before {
+  content: "\e92a";
+}
+.shakil-lineui-battery-disable:before {
+  content: "\e92b";
+}
+.shakil-lineui-battery-empty:before {
+  content: "\e92c";
+}
+.shakil-lineui-battery-empty-1:before {
+  content: "\e92d";
+}
+.shakil-lineui-battery-full:before {
+  content: "\e92e";
+}
+.shakil-lineui-bezier:before {
+  content: "\e92f";
+}
+.shakil-lineui-bill:before {
+  content: "\e930";
+}
+.shakil-lineui-bitcoin-card:before {
+  content: "\e931";
+}
+.shakil-lineui-bitcoin-convert:before {
+  content: "\e932";
+}
+.shakil-lineui-bitcoin-refresh:before {
+  content: "\e933";
+}
+.shakil-lineui-blend-2:before {
+  content: "\e934";
+}
+.shakil-lineui-arrow:before {
+  content: "\e935";
+}
+.shakil-lineui-arrow-square:before {
+  content: "\e936";
+}
+.shakil-lineui-arrow-square-right:before {
+  content: "\e937";
+}
+.shakil-lineui-arrow-square-up:before {
+  content: "\e938";
+}
+.shakil-lineui-arrow-swap-horizontal:before {
+  content: "\e939";
+}
+.shakil-lineui-arrow-up:before {
+  content: "\e93a";
+}
+.shakil-lineui-arrow-up-1:before {
+  content: "\e93b";
+}
+.shakil-lineui-arrow-up-2:before {
+  content: "\e93c";
+}
+.shakil-lineui-arrow-up-3:before {
+  content: "\e93d";
+}
+.shakil-lineui-attach-circle:before {
+  content: "\e93e";
+}
+.shakil-lineui-attach-square:before {
+  content: "\e93f";
+}
+.shakil-lineui-audio-square:before {
+  content: "\e940";
+}
+.shakil-lineui-autobrightness:before {
+  content: "\e941";
+}
+.shakil-lineui-award:before {
+  content: "\e942";
+}
+.shakil-lineui-back-square:before {
+  content: "\e943";
+}
+.shakil-lineui-backward:before {
+  content: "\e944";
+}
+.shakil-lineui-backward-5-seconds:before {
+  content: "\e945";
+}
+.shakil-lineui-backward-10-seconds:before {
+  content: "\e946";
+}
+.shakil-lineui-backward-15-seconds:before {
+  content: "\e947";
+}
+.shakil-lineui-backward-item:before {
+  content: "\e948";
+}
+.shakil-lineui-bag:before {
+  content: "\e949";
+}
+.shakil-lineui-bag-cross:before {
+  content: "\e94a";
+}
+.shakil-lineui-bag-cross-1:before {
+  content: "\e94b";
+}
+.shakil-lineui-bag-happy:before {
+  content: "\e94c";
+}
+.shakil-lineui-bag-tick:before {
+  content: "\e94d";
+}
+.shakil-lineui-bag-tick-2:before {
+  content: "\e94e";
+}
+.shakil-lineui-archive:before {
+  content: "\e94f";
+}
+.shakil-lineui-arrange-circle:before {
+  content: "\e950";
+}
+.shakil-lineui-arrange-circle-2:before {
+  content: "\e951";
+}
+.shakil-lineui-arrange-square:before {
+  content: "\e952";
+}
+.shakil-lineui-arrange-square-2:before {
+  content: "\e953";
+}
+.shakil-lineui-arrow-2:before {
+  content: "\e954";
+}
+.shakil-lineui-arrow-3:before {
+  content: "\e955";
+}
+.shakil-lineui-arrow-bottom:before {
+  content: "\e956";
+}
+.shakil-lineui-arrow-circle-down:before {
+  content: "\e957";
+}
+.shakil-lineui-arrow-circle-left:before {
+  content: "\e958";
+}
+.shakil-lineui-arrow-circle-right:before {
+  content: "\e959";
+}
+.shakil-lineui-arrow-down:before {
+  content: "\e95a";
+}
+.shakil-lineui-arrow-down-1:before {
+  content: "\e95b";
+}
+.shakil-lineui-arrow-down-2:before {
+  content: "\e95c";
+}
+.shakil-lineui-arrow-left:before {
+  content: "\e95d";
+}
+.shakil-lineui-arrow-left-1:before {
+  content: "\e95e";
+}
+.shakil-lineui-arrow-left-2:before {
+  content: "\e95f";
+}
+.shakil-lineui-arrow-left-3:before {
+  content: "\e960";
+}
+.shakil-lineui-arrow-right:before {
+  content: "\e961";
+}
+.shakil-lineui-arrow-right-1:before {
+  content: "\e962";
+}
+.shakil-lineui-arrow-right-2:before {
+  content: "\e963";
+}
+.shakil-lineui-arrow-right-3:before {
+  content: "\e964";
+}
+.shakil-lineui-arrow-square-down:before {
+  content: "\e965";
+}
+.shakil-lineui-arrow-square-left:before {
+  content: "\e966";
+}
+.shakil-lineui-add:before {
+  content: "\e967";
+}
+.shakil-lineui-additem:before {
+  content: "\e968";
+}
+.shakil-lineui-add-square:before {
+  content: "\e969";
+}
+.shakil-lineui-airdrop:before {
+  content: "\e96a";
+}
+.shakil-lineui-airplane:before {
+  content: "\e96b";
+}
+.shakil-lineui-airplane-square:before {
+  content: "\e96c";
+}
+.shakil-lineui-airpod:before {
+  content: "\e96d";
+}
+.shakil-lineui-airpods:before {
+  content: "\e96e";
+}
+.shakil-lineui-alarm:before {
+  content: "\e96f";
+}
+.shakil-lineui-align-bottom:before {
+  content: "\e970";
+}
+.shakil-lineui-align-horizontally:before {
+  content: "\e971";
+}
+.shakil-lineui-align-left:before {
+  content: "\e972";
+}
+.shakil-lineui-align-right:before {
+  content: "\e973";
+}
+.shakil-lineui-align-vertically:before {
+  content: "\e974";
+}
+.shakil-lineui-aquarius:before {
+  content: "\e975";
+}
+.shakil-lineui-archive-1:before {
+  content: "\e976";
+}
+.shakil-lineui-archive-add:before {
+  content: "\e977";
+}
+.shakil-lineui-archive-book:before {
+  content: "\e978";
+}
+.shakil-lineui-archive-minus:before {
+  content: "\e979";
+}
+.shakil-lineui-archive-slash:before {
+  content: "\e97a";
+}
+.shakil-lineui-archive-tick:before {
+  content: "\e97b";
+}
+.shakil-lineui-3dcube:before {
+  content: "\e97c";
+}
+.shakil-lineui-3d-cube-scan:before {
+  content: "\e97d";
+}
+.shakil-lineui-3d-rotate:before {
+  content: "\e97e";
+}
+.shakil-lineui-3d-square:before {
+  content: "\e97f";
+}
+.shakil-lineui-3square:before {
+  content: "\e980";
+}
+.shakil-lineui-24-support:before {
+  content: "\e981";
+}
+.shakil-lineui-activity:before {
+  content: "\e982";
+}
+.shakil-lineui-add-circle:before {
+  content: "\e983";
 }
