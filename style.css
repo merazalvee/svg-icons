@@ -9,6 +9,20 @@ body {
   color: #ffffff !important;
   font-family: "Space Grotesk", sans-serif !important;
 }
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 40px;
+  width: 170px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .cdn-box {
   display: flex;
   align-items: center;
@@ -39,7 +53,7 @@ body {
   white-space: nowrap;
 }
 .copy-btn {
-  background: #6528e0;
+  background: #1d9143;
   padding: 28px 20px;
   border-radius: 0 15px 15px 0;
   cursor: pointer;
@@ -70,12 +84,16 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.svg-box:hover i {
+  color: #28e065;
+}
 .svg-box i {
   font-size: 28px;
   color: #ffffff;
 }
 .svg-info .svg-box i {
   font-size: 20px;
+  cursor: pointer;
 }
 .svg-info {
   display: none;
