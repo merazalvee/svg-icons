@@ -24,6 +24,7 @@
           <div class="cdn-box">
             <div class="link-cdn">
               <input
+                id="link-cdn-input"
                 class="size--md cdn-style-link cdn--input"
                 type="text"
                 readonly=""
@@ -38,10 +39,11 @@
           <div class="cdn-box">
             <div class="link-cdn">
               <input
+                id="import-cdn-input"
                 class="size--md cdn-style-link cdn--input"
                 type="text"
                 readonly=""
-                value="@import url('href='https://shakil-lineuisvg.netlify.app/style.css');"
+                value="@import url('https://shakil-lineuisvg.netlify.app/style.css');"
               />
               <div class="copy-btn">Copy</div>
             </div>
@@ -50,10 +52,10 @@
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-4 col-md-2 col-lg-1">
+      <div class="row" id="svg-row">
+        <!-- <div class="col-4 col-md-2 col-lg-1">
           <div class="svg-box" onclick="toggleSvgInfo(this)">
-            <span class="icon-Wallet-Money"></span>
+            <i class="shakil-lineui-book"></i>
           </div>
         </div>
         <div class="col-4 col-md-2 col-lg-3 svg-info">
@@ -62,145 +64,65 @@
               class="size--md cdn-style-link cdn--input"
               type="text"
               readonly=""
-              value="@import url('href='https://shakil-lineuisvg.netlify.app/style.css');"
+              value='&lt;i class="shakil-lineui-book"&gt;&lt;/i&gt;'
             />
             <div><i class="bi bi-clipboard-fill"></i></div>
           </div>
         </div>
         <div class="col-4 col-md-2 col-lg-1">
           <div class="svg-box" onclick="toggleSvgInfo(this)">
-            <span class="icon-svgexport-29-converted"></span>
+            <i class="shakil-lineui-book-1"></i>
           </div>
         </div>
         <div class="col-4 col-md-2 col-lg-3 svg-info">
           <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
+            <input
+              class="size--md cdn-style-link cdn--input"
+              type="text"
+              readonly=""
+              value='&lt;i class="shakil-lineui-book-1"&gt;&lt;/i&gt;'
+            />
+            <div><i class="bi bi-clipboard-fill"></i></div>
           </div>
         </div>
         <div class="col-4 col-md-2 col-lg-1">
+          <div class="svg-box" onclick="toggleSvgInfo(this)">
+            <i class="shakil-lineui-bookmark"></i>
+          </div>
+        </div>
+        <div class="col-4 col-md-2 col-lg-3 svg-info">
           <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
+            <input
+              class="size--md cdn-style-link cdn--input"
+              type="text"
+              readonly=""
+              value='&lt;i class="shakil-lineui-bookmark"&gt;&lt;/i&gt;'
+            />
+            <div><i class="bi bi-clipboard-fill"></i></div>
           </div>
         </div>
         <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
+          <div class="svg-box" onclick="toggleSvgInfo(this)">
+            <i class="shakil-lineui-bookmark-2"></i>
           </div>
         </div>
-        <div class="col-4 col-md-2 col-lg-1">
+        <div class="col-4 col-md-2 col-lg-3 svg-info">
           <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
+            <input
+              class="size--md cdn-style-link cdn--input"
+              type="text"
+              readonly=""
+              value='&lt;i class="shakil-lineui-bookmark-2"&gt;&lt;/i&gt;'
+            />
+            <div><i class="bi bi-clipboard-fill"></i></div>
           </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
-        <div class="col-4 col-md-2 col-lg-1">
-          <div class="svg-box">
-            <span class="icon-Wallet-Money"></span>
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
-    <script>
-      function toggleSvgInfo(element) {
-        var svgInfo = element.parentNode.nextElementSibling;
-        svgInfo.classList.toggle("visible");
-      }
-    </script>
+    <!-- Main Script -->
+    <script src="./script.js"></script>
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
