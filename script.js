@@ -1,4 +1,4 @@
-function repeatSvgInfo(iconClass) {
+function repeatSvgInfo(iconClass, index) {
   const col1 = document.createElement("div");
   col1.className = "col-4 col-md-2 col-lg-1";
 
@@ -17,12 +17,18 @@ function repeatSvgInfo(iconClass) {
 
   const codeInput = document.createElement("input");
   codeInput.className = "size--md cdn-style-link cdn--input";
+  codeInput.setAttribute("id", `cdn--input-${index}`);
   codeInput.type = "text";
   codeInput.readOnly = true;
   codeInput.value = `<i class="${iconClass}"></i>`;
 
   const clipboardIcon = document.createElement("i");
   clipboardIcon.className = `bi bi-clipboard-fill`;
+  clipboardIcon.setAttribute("id", `bi-clipboard-fill-${index}`);
+  clipboardIcon.addEventListener("click", function () {
+    const selectClipBoardValue = document.getElementById(`cdn--input-${index}`);
+    copyToClipboard(selectClipBoardValue.value);
+  });
 
   const codeBox = document.createElement("div");
   codeBox.className = "svg-box";
