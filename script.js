@@ -69,7 +69,7 @@ function repeatSvgInfo(iconClass) {
   col1.className = "col-4 col-md-2 col-lg-1";
 
   const col2 = document.createElement("div");
-  col2.className = "col-4 col-md-2 col-lg-3 svg-info";
+  col2.className = "col-8 col-md-6 col-lg-4 svg-info";
 
   // Create the SVG icon element
   const svgBoxIcon = document.createElement("i");
