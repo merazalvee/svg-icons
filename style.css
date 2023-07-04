@@ -55,6 +55,7 @@ body {
 .svg-info .svg-box {
   justify-content: space-between;
   padding: 0 20px;
+  font-family: "Fira Code", monospace;
 }
 .svg-box input {
   width: 100%;
@@ -67,9 +68,12 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.svg-box span {
-  font-size: 40px;
+.svg-box i {
+  font-size: 35px;
   color: #ffffff;
+}
+.svg-info .svg-box i {
+  font-size: 20px;
 }
 .svg-info {
   display: none;
