@@ -83,6 +83,11 @@ function repeatSvgInfo(iconClass) {
   };
   svgBox.appendChild(svgBoxIcon);
 
+  // Alert Message
+  const alertMessage = document.createElement("div");
+  alertMessage.className = "ico-alert";
+  alertMessage.innerHTML = "Tag Copied";
+
   // Create the HTML code snippet input element
   const codeInput = document.createElement("input");
   codeInput.className = "size--md cdn-style-link cdn--input";
@@ -94,12 +99,16 @@ function repeatSvgInfo(iconClass) {
   const clipboardIcon = document.createElement("i");
   clipboardIcon.className = "fi fi-sr-duplicate";
   clipboardIcon.onclick = function () {
-    copyToClipboard(codeInput.value);
+    showAlert();
   };
+  // clipboardIcon.onclick = function () {
+  //   copyToClipboard(codeInput.value);
+  // };
 
   // Create the HTML code snippet container element
   const codeBox = document.createElement("div");
-  codeBox.className = "svg-box";
+  codeBox.className = "svg-box tag-box";
+  codeBox.appendChild(alertMessage);
   codeBox.appendChild(codeInput);
   codeBox.appendChild(document.createElement("div").appendChild(clipboardIcon));
 
@@ -123,6 +132,61 @@ function copyToClipboard(value) {
 
 // Call the repeatSvgInfo function to add multiple SVG icons and code snippets
 const svgInfoArray = [
+  "shakil-lineui-chrome",
+  "shakil-lineui-clipboard-close",
+  "shakil-lineui-buliding",
+  "shakil-lineui-bus",
+  "shakil-lineui-buy-crypto",
+  "shakil-lineui-cake",
+  "shakil-lineui-calculator",
+  "shakil-lineui-calendar",
+  "shakil-lineui-calendar-1",
+  "shakil-lineui-calendar-2",
+  "shakil-lineui-calendar-add",
+  "shakil-lineui-calendar-circle",
+  "shakil-lineui-calendar-edit",
+  "shakil-lineui-calendar-remove",
+  "shakil-lineui-calendar-search",
+  "shakil-lineui-calendar-tick",
+  "shakil-lineui-call",
+  "shakil-lineui-call-add",
+  "shakil-lineui-call-calling",
+  "shakil-lineui-call-incoming",
+  "shakil-lineui-call-minus",
+  "shakil-lineui-call-outgoing",
+  "shakil-lineui-call-received",
+  "shakil-lineui-call-remove",
+  "shakil-lineui-call-slash",
+  "shakil-lineui-camera",
+  "shakil-lineui-camera-slash",
+  "shakil-lineui-candle",
+  "shakil-lineui-candle-2",
+  "shakil-lineui-car",
+  "shakil-lineui-card",
+  "shakil-lineui-card-add",
+  "shakil-lineui-card-coin",
+  "shakil-lineui-card-edit",
+  "shakil-lineui-card-pos",
+  "shakil-lineui-card-receive",
+  "shakil-lineui-card-remove",
+  "shakil-lineui-card-remove-1",
+  "shakil-lineui-cards",
+  "shakil-lineui-card-send",
+  "shakil-lineui-card-slash",
+  "shakil-lineui-card-tick",
+  "shakil-lineui-card-tick-1",
+  "shakil-lineui-category",
+  "shakil-lineui-category-2",
+  "shakil-lineui-cd",
+  "shakil-lineui-chart",
+  "shakil-lineui-chart-1",
+  "shakil-lineui-chart-2",
+  "shakil-lineui-chart-3",
+  "shakil-lineui-chart-21",
+  "shakil-lineui-chart-square",
+  "shakil-lineui-chart-success",
+  "shakil-lineui-check",
+  "shakil-lineui-clipboard-export",
   "shakil-lineui-blend",
   "shakil-lineui-bluetooth",
   "shakil-lineui-bluetooth-2",
@@ -269,7 +333,7 @@ function copyLinkCdn() {
   inputElement.select();
   document.execCommand("copy");
   showCopyAlert();
-  //   alert("Copied to clipboard!");
+  alert("Copied to clipboard!");
 }
 
 function copyImportCdn() {
@@ -277,7 +341,7 @@ function copyImportCdn() {
   inputElement.select();
   document.execCommand("copy");
   showCopyAlert();
-  //   alert("Copied to clipboard!");
+  alert("Copied to clipboard!");
 }
 
 function showCopyAlert() {
