@@ -25,6 +25,171 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.shakil-lineui-chrome:before {
+  content: "\e984";
+}
+.shakil-lineui-clipboard-close:before {
+  content: "\e985";
+}
+.shakil-lineui-buliding:before {
+  content: "\e986";
+}
+.shakil-lineui-bus:before {
+  content: "\e987";
+}
+.shakil-lineui-buy-crypto:before {
+  content: "\e988";
+}
+.shakil-lineui-cake:before {
+  content: "\e989";
+}
+.shakil-lineui-calculator:before {
+  content: "\e98a";
+}
+.shakil-lineui-calendar:before {
+  content: "\e98b";
+}
+.shakil-lineui-calendar-1:before {
+  content: "\e98c";
+}
+.shakil-lineui-calendar-2:before {
+  content: "\e98d";
+}
+.shakil-lineui-calendar-add:before {
+  content: "\e98e";
+}
+.shakil-lineui-calendar-circle:before {
+  content: "\e98f";
+}
+.shakil-lineui-calendar-edit:before {
+  content: "\e990";
+}
+.shakil-lineui-calendar-remove:before {
+  content: "\e991";
+}
+.shakil-lineui-calendar-search:before {
+  content: "\e992";
+}
+.shakil-lineui-calendar-tick:before {
+  content: "\e993";
+}
+.shakil-lineui-call:before {
+  content: "\e994";
+}
+.shakil-lineui-call-add:before {
+  content: "\e995";
+}
+.shakil-lineui-call-calling:before {
+  content: "\e996";
+}
+.shakil-lineui-call-incoming:before {
+  content: "\e997";
+}
+.shakil-lineui-call-minus:before {
+  content: "\e998";
+}
+.shakil-lineui-call-outgoing:before {
+  content: "\e999";
+}
+.shakil-lineui-call-received:before {
+  content: "\e99a";
+}
+.shakil-lineui-call-remove:before {
+  content: "\e99b";
+}
+.shakil-lineui-call-slash:before {
+  content: "\e99c";
+}
+.shakil-lineui-camera:before {
+  content: "\e99d";
+}
+.shakil-lineui-camera-slash:before {
+  content: "\e99e";
+}
+.shakil-lineui-candle:before {
+  content: "\e99f";
+}
+.shakil-lineui-candle-2:before {
+  content: "\e9a0";
+}
+.shakil-lineui-car:before {
+  content: "\e9a1";
+}
+.shakil-lineui-card:before {
+  content: "\e9a2";
+}
+.shakil-lineui-card-add:before {
+  content: "\e9a3";
+}
+.shakil-lineui-card-coin:before {
+  content: "\e9a4";
+}
+.shakil-lineui-card-edit:before {
+  content: "\e9a5";
+}
+.shakil-lineui-card-pos:before {
+  content: "\e9a6";
+}
+.shakil-lineui-card-receive:before {
+  content: "\e9a7";
+}
+.shakil-lineui-card-remove:before {
+  content: "\e9a8";
+}
+.shakil-lineui-card-remove-1:before {
+  content: "\e9a9";
+}
+.shakil-lineui-cards:before {
+  content: "\e9aa";
+}
+.shakil-lineui-card-send:before {
+  content: "\e9ab";
+}
+.shakil-lineui-card-slash:before {
+  content: "\e9ac";
+}
+.shakil-lineui-card-tick:before {
+  content: "\e9ad";
+}
+.shakil-lineui-card-tick-1:before {
+  content: "\e9ae";
+}
+.shakil-lineui-category:before {
+  content: "\e9af";
+}
+.shakil-lineui-category-2:before {
+  content: "\e9b0";
+}
+.shakil-lineui-cd:before {
+  content: "\e9b1";
+}
+.shakil-lineui-chart:before {
+  content: "\e9b2";
+}
+.shakil-lineui-chart-1:before {
+  content: "\e9b3";
+}
+.shakil-lineui-chart-2:before {
+  content: "\e9b4";
+}
+.shakil-lineui-chart-3:before {
+  content: "\e9b5";
+}
+.shakil-lineui-chart-21:before {
+  content: "\e9b6";
+}
+.shakil-lineui-chart-square:before {
+  content: "\e9b7";
+}
+.shakil-lineui-chart-success:before {
+  content: "\e9b8";
+}
+.shakil-lineui-check:before {
+  content: "\e9b9";
+}
+.shakil-lineui-clipboard-export:before {
+  content: "\e9ba";
+}
 .shakil-lineui-blend:before {
   content: "\e900";
 }
