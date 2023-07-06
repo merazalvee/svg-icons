@@ -387,7 +387,7 @@ function copyLinkCdn() {
   inputElement.select();
   document.execCommand("copy");
   showCopyAlert();
-  alert("Copied to clipboard!");
+  // alert("Copied to clipboard!");
 }
 
 function copyImportCdn() {
@@ -395,7 +395,7 @@ function copyImportCdn() {
   inputElement.select();
   document.execCommand("copy");
   showCopyAlert();
-  alert("Copied to clipboard!");
+  // alert("Copied to clipboard!");
 }
 
 function showCopyAlert() {
