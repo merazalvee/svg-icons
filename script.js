@@ -93,7 +93,7 @@ function repeatSvgInfo(iconClass) {
   codeInput.className = "size--md cdn-style-link cdn--input";
   codeInput.type = "text";
   codeInput.readOnly = true;
-  codeInput.value = `<i class="${iconClass}"></i>`;
+  codeInput.value = `<i class="lineui ${iconClass}"></i>`;
 
   // Create the clipboard icon element
   const clipboardIcon = document.createElement("i");
