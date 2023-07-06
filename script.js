@@ -101,9 +101,9 @@ function repeatSvgInfo(iconClass) {
   clipboardIcon.onclick = function () {
     showAlert();
   };
-  // clipboardIcon.onclick = function () {
-  //   copyToClipboard(codeInput.value);
-  // };
+  clipboardIcon.onclick = function () {
+    copyToClipboard(codeInput.value);
+  };
 
   // Create the HTML code snippet container element
   const codeBox = document.createElement("div");
