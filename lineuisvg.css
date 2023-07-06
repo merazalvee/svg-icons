@@ -25,564 +25,726 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.shakil-lineui-chrome:before {
+.lineui-clipboard:before {
+  content: "\e9bb";
+}
+.lineui-clipboard-import:before {
+  content: "\e9bc";
+}
+.lineui-clipboard-text:before {
+  content: "\e9bd";
+}
+.lineui-clipboard-tick:before {
+  content: "\e9be";
+}
+.lineui-clock:before {
+  content: "\e9bf";
+}
+.lineui-clock-1:before {
+  content: "\e9c0";
+}
+.lineui-close-circle:before {
+  content: "\e9c1";
+}
+.lineui-close-square:before {
+  content: "\e9c2";
+}
+.lineui-cloud:before {
+  content: "\e9c3";
+}
+.lineui-cloud-add:before {
+  content: "\e9c4";
+}
+.lineui-cloud-change:before {
+  content: "\e9c5";
+}
+.lineui-cloud-connection:before {
+  content: "\e9c6";
+}
+.lineui-cloud-cross:before {
+  content: "\e9c7";
+}
+.lineui-cloud-drizzle:before {
+  content: "\e9c8";
+}
+.lineui-cloud-fog:before {
+  content: "\e9c9";
+}
+.lineui-cloud-lightning:before {
+  content: "\e9ca";
+}
+.lineui-cloud-minus:before {
+  content: "\e9cb";
+}
+.lineui-cloud-notif:before {
+  content: "\e9cc";
+}
+.lineui-cloud-plus:before {
+  content: "\e9cd";
+}
+.lineui-cloud-remove:before {
+  content: "\e9ce";
+}
+.lineui-cloud-snow:before {
+  content: "\e9cf";
+}
+.lineui-cloud-sunny:before {
+  content: "\e9d0";
+}
+.lineui-code:before {
+  content: "\e9d1";
+}
+.lineui-code-1:before {
+  content: "\e9d2";
+}
+.lineui-code-circle:before {
+  content: "\e9d3";
+}
+.lineui-coffee:before {
+  content: "\e9d4";
+}
+.lineui-coin:before {
+  content: "\e9d5";
+}
+.lineui-coin-1:before {
+  content: "\e9d6";
+}
+.lineui-colorfilter:before {
+  content: "\e9d7";
+}
+.lineui-colors-square:before {
+  content: "\e9d8";
+}
+.lineui-color-swatch:before {
+  content: "\e9d9";
+}
+.lineui-command:before {
+  content: "\e9da";
+}
+.lineui-command-square:before {
+  content: "\e9db";
+}
+.lineui-component-1:before {
+  content: "\e9dc";
+}
+.lineui-computing:before {
+  content: "\e9dd";
+}
+.lineui-convert:before {
+  content: "\e9de";
+}
+.lineui-convert-3d-cube:before {
+  content: "\e9df";
+}
+.lineui-convertshape:before {
+  content: "\e9e0";
+}
+.lineui-convertshape-2:before {
+  content: "\e9e1";
+}
+.lineui-copy:before {
+  content: "\e9e2";
+}
+.lineui-copyright:before {
+  content: "\e9e3";
+}
+.lineui-copy-success:before {
+  content: "\e9e4";
+}
+.lineui-courthouse:before {
+  content: "\e9e5";
+}
+.lineui-cpu-charge:before {
+  content: "\e9e6";
+}
+.lineui-crop:before {
+  content: "\e9e7";
+}
+.lineui-crown:before {
+  content: "\e9e8";
+}
+.lineui-crown-1:before {
+  content: "\e9e9";
+}
+.lineui-cup:before {
+  content: "\e9ea";
+}
+.lineui-danger:before {
+  content: "\e9eb";
+}
+.lineui-data:before {
+  content: "\e9ec";
+}
+.lineui-data-2:before {
+  content: "\e9ed";
+}
+.lineui-cpu:before {
+  content: "\e9ee";
+}
+.lineui-cpu-setting:before {
+  content: "\e9ef";
+}
+.lineui-creative-commons:before {
+  content: "\e9f0";
+}
+.lineui-chrome:before {
   content: "\e984";
 }
-.shakil-lineui-clipboard-close:before {
+.lineui-clipboard-close:before {
   content: "\e985";
 }
-.shakil-lineui-buliding:before {
+.lineui-buliding:before {
   content: "\e986";
 }
-.shakil-lineui-bus:before {
+.lineui-bus:before {
   content: "\e987";
 }
-.shakil-lineui-buy-crypto:before {
+.lineui-buy-crypto:before {
   content: "\e988";
 }
-.shakil-lineui-cake:before {
+.lineui-cake:before {
   content: "\e989";
 }
-.shakil-lineui-calculator:before {
+.lineui-calculator:before {
   content: "\e98a";
 }
-.shakil-lineui-calendar:before {
+.lineui-calendar:before {
   content: "\e98b";
 }
-.shakil-lineui-calendar-1:before {
+.lineui-calendar-1:before {
   content: "\e98c";
 }
-.shakil-lineui-calendar-2:before {
+.lineui-calendar-2:before {
   content: "\e98d";
 }
-.shakil-lineui-calendar-add:before {
+.lineui-calendar-add:before {
   content: "\e98e";
 }
-.shakil-lineui-calendar-circle:before {
+.lineui-calendar-circle:before {
   content: "\e98f";
 }
-.shakil-lineui-calendar-edit:before {
+.lineui-calendar-edit:before {
   content: "\e990";
 }
-.shakil-lineui-calendar-remove:before {
+.lineui-calendar-remove:before {
   content: "\e991";
 }
-.shakil-lineui-calendar-search:before {
+.lineui-calendar-search:before {
   content: "\e992";
 }
-.shakil-lineui-calendar-tick:before {
+.lineui-calendar-tick:before {
   content: "\e993";
 }
-.shakil-lineui-call:before {
+.lineui-call:before {
   content: "\e994";
 }
-.shakil-lineui-call-add:before {
+.lineui-call-add:before {
   content: "\e995";
 }
-.shakil-lineui-call-calling:before {
+.lineui-call-calling:before {
   content: "\e996";
 }
-.shakil-lineui-call-incoming:before {
+.lineui-call-incoming:before {
   content: "\e997";
 }
-.shakil-lineui-call-minus:before {
+.lineui-call-minus:before {
   content: "\e998";
 }
-.shakil-lineui-call-outgoing:before {
+.lineui-call-outgoing:before {
   content: "\e999";
 }
-.shakil-lineui-call-received:before {
+.lineui-call-received:before {
   content: "\e99a";
 }
-.shakil-lineui-call-remove:before {
+.lineui-call-remove:before {
   content: "\e99b";
 }
-.shakil-lineui-call-slash:before {
+.lineui-call-slash:before {
   content: "\e99c";
 }
-.shakil-lineui-camera:before {
+.lineui-camera:before {
   content: "\e99d";
 }
-.shakil-lineui-camera-slash:before {
+.lineui-camera-slash:before {
   content: "\e99e";
 }
-.shakil-lineui-candle:before {
+.lineui-candle:before {
   content: "\e99f";
 }
-.shakil-lineui-candle-2:before {
+.lineui-candle-2:before {
   content: "\e9a0";
 }
-.shakil-lineui-car:before {
+.lineui-car:before {
   content: "\e9a1";
 }
-.shakil-lineui-card:before {
+.lineui-card:before {
   content: "\e9a2";
 }
-.shakil-lineui-card-add:before {
+.lineui-card-add:before {
   content: "\e9a3";
 }
-.shakil-lineui-card-coin:before {
+.lineui-card-coin:before {
   content: "\e9a4";
 }
-.shakil-lineui-card-edit:before {
+.lineui-card-edit:before {
   content: "\e9a5";
 }
-.shakil-lineui-card-pos:before {
+.lineui-card-pos:before {
   content: "\e9a6";
 }
-.shakil-lineui-card-receive:before {
+.lineui-card-receive:before {
   content: "\e9a7";
 }
-.shakil-lineui-card-remove:before {
+.lineui-card-remove:before {
   content: "\e9a8";
 }
-.shakil-lineui-card-remove-1:before {
+.lineui-card-remove-1:before {
   content: "\e9a9";
 }
-.shakil-lineui-cards:before {
+.lineui-cards:before {
   content: "\e9aa";
 }
-.shakil-lineui-card-send:before {
+.lineui-card-send:before {
   content: "\e9ab";
 }
-.shakil-lineui-card-slash:before {
+.lineui-card-slash:before {
   content: "\e9ac";
 }
-.shakil-lineui-card-tick:before {
+.lineui-card-tick:before {
   content: "\e9ad";
 }
-.shakil-lineui-card-tick-1:before {
+.lineui-card-tick-1:before {
   content: "\e9ae";
 }
-.shakil-lineui-category:before {
+.lineui-category:before {
   content: "\e9af";
 }
-.shakil-lineui-category-2:before {
+.lineui-category-2:before {
   content: "\e9b0";
 }
-.shakil-lineui-cd:before {
+.lineui-cd:before {
   content: "\e9b1";
 }
-.shakil-lineui-chart:before {
+.lineui-chart:before {
   content: "\e9b2";
 }
-.shakil-lineui-chart-1:before {
+.lineui-chart-1:before {
   content: "\e9b3";
 }
-.shakil-lineui-chart-2:before {
+.lineui-chart-2:before {
   content: "\e9b4";
 }
-.shakil-lineui-chart-3:before {
+.lineui-chart-3:before {
   content: "\e9b5";
 }
-.shakil-lineui-chart-21:before {
+.lineui-chart-21:before {
   content: "\e9b6";
 }
-.shakil-lineui-chart-square:before {
+.lineui-chart-square:before {
   content: "\e9b7";
 }
-.shakil-lineui-chart-success:before {
+.lineui-chart-success:before {
   content: "\e9b8";
 }
-.shakil-lineui-check:before {
+.lineui-check:before {
   content: "\e9b9";
 }
-.shakil-lineui-clipboard-export:before {
+.lineui-clipboard-export:before {
   content: "\e9ba";
 }
-.shakil-lineui-blend:before {
+.lineui-blend:before {
   content: "\e900";
 }
-.shakil-lineui-bluetooth:before {
+.lineui-bluetooth:before {
   content: "\e901";
 }
-.shakil-lineui-bluetooth-2:before {
+.lineui-bluetooth-2:before {
   content: "\e902";
 }
-.shakil-lineui-bluetooth-circle:before {
+.lineui-bluetooth-circle:before {
   content: "\e903";
 }
-.shakil-lineui-bluetooth-rectangle:before {
+.lineui-bluetooth-rectangle:before {
   content: "\e904";
 }
-.shakil-lineui-blur:before {
+.lineui-blur:before {
   content: "\e905";
 }
-.shakil-lineui-book:before {
+.lineui-book:before {
   content: "\e906";
 }
-.shakil-lineui-book-1:before {
+.lineui-book-1:before {
   content: "\e907";
 }
-.shakil-lineui-bookmark:before {
+.lineui-bookmark:before {
   content: "\e908";
 }
-.shakil-lineui-bookmark-2:before {
+.lineui-bookmark-2:before {
   content: "\e909";
 }
-.shakil-lineui-book-saved:before {
+.lineui-book-saved:before {
   content: "\e90a";
 }
-.shakil-lineui-book-square:before {
+.lineui-book-square:before {
   content: "\e90b";
 }
-.shakil-lineui-box:before {
+.lineui-box:before {
   content: "\e90c";
 }
-.shakil-lineui-box-1:before {
+.lineui-box-1:before {
   content: "\e90d";
 }
-.shakil-lineui-box-2:before {
+.lineui-box-2:before {
   content: "\e90e";
 }
-.shakil-lineui-box-add:before {
+.lineui-box-add:before {
   content: "\e90f";
 }
-.shakil-lineui-box-remove:before {
+.lineui-box-remove:before {
   content: "\e910";
 }
-.shakil-lineui-box-search:before {
+.lineui-box-search:before {
   content: "\e911";
 }
-.shakil-lineui-box-tick:before {
+.lineui-box-tick:before {
   content: "\e912";
 }
-.shakil-lineui-box-time:before {
+.lineui-box-time:before {
   content: "\e913";
 }
-.shakil-lineui-briefcase:before {
+.lineui-briefcase:before {
   content: "\e914";
 }
-.shakil-lineui-brifecase-cross:before {
+.lineui-brifecase-cross:before {
   content: "\e915";
 }
-.shakil-lineui-brifecase-tick:before {
+.lineui-brifecase-tick:before {
   content: "\e916";
 }
-.shakil-lineui-brifecase-timer:before {
+.lineui-brifecase-timer:before {
   content: "\e917";
 }
-.shakil-lineui-broom:before {
+.lineui-broom:before {
   content: "\e918";
 }
-.shakil-lineui-brush:before {
+.lineui-brush:before {
   content: "\e919";
 }
-.shakil-lineui-brush-1:before {
+.lineui-brush-1:before {
   content: "\e91a";
 }
-.shakil-lineui-brush-2:before {
+.lineui-brush-2:before {
   content: "\e91b";
 }
-.shakil-lineui-brush-3:before {
+.lineui-brush-3:before {
   content: "\e91c";
 }
-.shakil-lineui-bubble:before {
+.lineui-bubble:before {
   content: "\e91d";
 }
-.shakil-lineui-bucket-circle:before {
+.lineui-bucket-circle:before {
   content: "\e91e";
 }
-.shakil-lineui-bucket-square:before {
+.lineui-bucket-square:before {
   content: "\e91f";
 }
-.shakil-lineui-building:before {
+.lineui-building:before {
   content: "\e920";
 }
-.shakil-lineui-building-3:before {
+.lineui-building-3:before {
   content: "\e921";
 }
-.shakil-lineui-building-4:before {
+.lineui-building-4:before {
   content: "\e922";
 }
-.shakil-lineui-buildings:before {
+.lineui-buildings:before {
   content: "\e923";
 }
-.shakil-lineui-buildings-2:before {
+.lineui-buildings-2:before {
   content: "\e924";
 }
-.shakil-lineui-bag-1:before {
+.lineui-bag-1:before {
   content: "\e925";
 }
-.shakil-lineui-bag-timer:before {
+.lineui-bag-timer:before {
   content: "\e926";
 }
-.shakil-lineui-bank:before {
+.lineui-bank:before {
   content: "\e927";
 }
-.shakil-lineui-barcode:before {
+.lineui-barcode:before {
   content: "\e928";
 }
-.shakil-lineui-battery-3full:before {
+.lineui-battery-3full:before {
   content: "\e929";
 }
-.shakil-lineui-battery-charging:before {
+.lineui-battery-charging:before {
   content: "\e92a";
 }
-.shakil-lineui-battery-disable:before {
+.lineui-battery-disable:before {
   content: "\e92b";
 }
-.shakil-lineui-battery-empty:before {
+.lineui-battery-empty:before {
   content: "\e92c";
 }
-.shakil-lineui-battery-empty-1:before {
+.lineui-battery-empty-1:before {
   content: "\e92d";
 }
-.shakil-lineui-battery-full:before {
+.lineui-battery-full:before {
   content: "\e92e";
 }
-.shakil-lineui-bezier:before {
+.lineui-bezier:before {
   content: "\e92f";
 }
-.shakil-lineui-bill:before {
+.lineui-bill:before {
   content: "\e930";
 }
-.shakil-lineui-bitcoin-card:before {
+.lineui-bitcoin-card:before {
   content: "\e931";
 }
-.shakil-lineui-bitcoin-convert:before {
+.lineui-bitcoin-convert:before {
   content: "\e932";
 }
-.shakil-lineui-bitcoin-refresh:before {
+.lineui-bitcoin-refresh:before {
   content: "\e933";
 }
-.shakil-lineui-blend-2:before {
+.lineui-blend-2:before {
   content: "\e934";
 }
-.shakil-lineui-arrow:before {
+.lineui-arrow:before {
   content: "\e935";
 }
-.shakil-lineui-arrow-square:before {
+.lineui-arrow-square:before {
   content: "\e936";
 }
-.shakil-lineui-arrow-square-right:before {
+.lineui-arrow-square-right:before {
   content: "\e937";
 }
-.shakil-lineui-arrow-square-up:before {
+.lineui-arrow-square-up:before {
   content: "\e938";
 }
-.shakil-lineui-arrow-swap-horizontal:before {
+.lineui-arrow-swap-horizontal:before {
   content: "\e939";
 }
-.shakil-lineui-arrow-up:before {
+.lineui-arrow-up:before {
   content: "\e93a";
 }
-.shakil-lineui-arrow-up-1:before {
+.lineui-arrow-up-1:before {
   content: "\e93b";
 }
-.shakil-lineui-arrow-up-2:before {
+.lineui-arrow-up-2:before {
   content: "\e93c";
 }
-.shakil-lineui-arrow-up-3:before {
+.lineui-arrow-up-3:before {
   content: "\e93d";
 }
-.shakil-lineui-attach-circle:before {
+.lineui-attach-circle:before {
   content: "\e93e";
 }
-.shakil-lineui-attach-square:before {
+.lineui-attach-square:before {
   content: "\e93f";
 }
-.shakil-lineui-audio-square:before {
+.lineui-audio-square:before {
   content: "\e940";
 }
-.shakil-lineui-autobrightness:before {
+.lineui-autobrightness:before {
   content: "\e941";
 }
-.shakil-lineui-award:before {
+.lineui-award:before {
   content: "\e942";
 }
-.shakil-lineui-back-square:before {
+.lineui-back-square:before {
   content: "\e943";
 }
-.shakil-lineui-backward:before {
+.lineui-backward:before {
   content: "\e944";
 }
-.shakil-lineui-backward-5-seconds:before {
+.lineui-backward-5-seconds:before {
   content: "\e945";
 }
-.shakil-lineui-backward-10-seconds:before {
+.lineui-backward-10-seconds:before {
   content: "\e946";
 }
-.shakil-lineui-backward-15-seconds:before {
+.lineui-backward-15-seconds:before {
   content: "\e947";
 }
-.shakil-lineui-backward-item:before {
+.lineui-backward-item:before {
   content: "\e948";
 }
-.shakil-lineui-bag:before {
+.lineui-bag:before {
   content: "\e949";
 }
-.shakil-lineui-bag-cross:before {
+.lineui-bag-cross:before {
   content: "\e94a";
 }
-.shakil-lineui-bag-cross-1:before {
+.lineui-bag-cross-1:before {
   content: "\e94b";
 }
-.shakil-lineui-bag-happy:before {
+.lineui-bag-happy:before {
   content: "\e94c";
 }
-.shakil-lineui-bag-tick:before {
+.lineui-bag-tick:before {
   content: "\e94d";
 }
-.shakil-lineui-bag-tick-2:before {
+.lineui-bag-tick-2:before {
   content: "\e94e";
 }
-.shakil-lineui-archive:before {
+.lineui-archive:before {
   content: "\e94f";
 }
-.shakil-lineui-arrange-circle:before {
+.lineui-arrange-circle:before {
   content: "\e950";
 }
-.shakil-lineui-arrange-circle-2:before {
+.lineui-arrange-circle-2:before {
   content: "\e951";
 }
-.shakil-lineui-arrange-square:before {
+.lineui-arrange-square:before {
   content: "\e952";
 }
-.shakil-lineui-arrange-square-2:before {
+.lineui-arrange-square-2:before {
   content: "\e953";
 }
-.shakil-lineui-arrow-2:before {
+.lineui-arrow-2:before {
   content: "\e954";
 }
-.shakil-lineui-arrow-3:before {
+.lineui-arrow-3:before {
   content: "\e955";
 }
-.shakil-lineui-arrow-bottom:before {
+.lineui-arrow-bottom:before {
   content: "\e956";
 }
-.shakil-lineui-arrow-circle-down:before {
+.lineui-arrow-circle-down:before {
   content: "\e957";
 }
-.shakil-lineui-arrow-circle-left:before {
+.lineui-arrow-circle-left:before {
   content: "\e958";
 }
-.shakil-lineui-arrow-circle-right:before {
+.lineui-arrow-circle-right:before {
   content: "\e959";
 }
-.shakil-lineui-arrow-down:before {
+.lineui-arrow-down:before {
   content: "\e95a";
 }
-.shakil-lineui-arrow-down-1:before {
+.lineui-arrow-down-1:before {
   content: "\e95b";
 }
-.shakil-lineui-arrow-down-2:before {
+.lineui-arrow-down-2:before {
   content: "\e95c";
 }
-.shakil-lineui-arrow-left:before {
+.lineui-arrow-left:before {
   content: "\e95d";
 }
-.shakil-lineui-arrow-left-1:before {
+.lineui-arrow-left-1:before {
   content: "\e95e";
 }
-.shakil-lineui-arrow-left-2:before {
+.lineui-arrow-left-2:before {
   content: "\e95f";
 }
-.shakil-lineui-arrow-left-3:before {
+.lineui-arrow-left-3:before {
   content: "\e960";
 }
-.shakil-lineui-arrow-right:before {
+.lineui-arrow-right:before {
   content: "\e961";
 }
-.shakil-lineui-arrow-right-1:before {
+.lineui-arrow-right-1:before {
   content: "\e962";
 }
-.shakil-lineui-arrow-right-2:before {
+.lineui-arrow-right-2:before {
   content: "\e963";
 }
-.shakil-lineui-arrow-right-3:before {
+.lineui-arrow-right-3:before {
   content: "\e964";
 }
-.shakil-lineui-arrow-square-down:before {
+.lineui-arrow-square-down:before {
   content: "\e965";
 }
-.shakil-lineui-arrow-square-left:before {
+.lineui-arrow-square-left:before {
   content: "\e966";
 }
-.shakil-lineui-add:before {
+.lineui-add:before {
   content: "\e967";
 }
-.shakil-lineui-additem:before {
+.lineui-additem:before {
   content: "\e968";
 }
-.shakil-lineui-add-square:before {
+.lineui-add-square:before {
   content: "\e969";
 }
-.shakil-lineui-airdrop:before {
+.lineui-airdrop:before {
   content: "\e96a";
 }
-.shakil-lineui-airplane:before {
+.lineui-airplane:before {
   content: "\e96b";
 }
-.shakil-lineui-airplane-square:before {
+.lineui-airplane-square:before {
   content: "\e96c";
 }
-.shakil-lineui-airpod:before {
+.lineui-airpod:before {
   content: "\e96d";
 }
-.shakil-lineui-airpods:before {
+.lineui-airpods:before {
   content: "\e96e";
 }
-.shakil-lineui-alarm:before {
+.lineui-alarm:before {
   content: "\e96f";
 }
-.shakil-lineui-align-bottom:before {
+.lineui-align-bottom:before {
   content: "\e970";
 }
-.shakil-lineui-align-horizontally:before {
+.lineui-align-horizontally:before {
   content: "\e971";
 }
-.shakil-lineui-align-left:before {
+.lineui-align-left:before {
   content: "\e972";
 }
-.shakil-lineui-align-right:before {
+.lineui-align-right:before {
   content: "\e973";
 }
-.shakil-lineui-align-vertically:before {
+.lineui-align-vertically:before {
   content: "\e974";
 }
-.shakil-lineui-aquarius:before {
+.lineui-aquarius:before {
   content: "\e975";
 }
-.shakil-lineui-archive-1:before {
+.lineui-archive-1:before {
   content: "\e976";
 }
-.shakil-lineui-archive-add:before {
+.lineui-archive-add:before {
   content: "\e977";
 }
-.shakil-lineui-archive-book:before {
+.lineui-archive-book:before {
   content: "\e978";
 }
-.shakil-lineui-archive-minus:before {
+.lineui-archive-minus:before {
   content: "\e979";
 }
-.shakil-lineui-archive-slash:before {
+.lineui-archive-slash:before {
   content: "\e97a";
 }
-.shakil-lineui-archive-tick:before {
+.lineui-archive-tick:before {
   content: "\e97b";
 }
-.shakil-lineui-3dcube:before {
+.lineui-3dcube:before {
   content: "\e97c";
 }
-.shakil-lineui-3d-cube-scan:before {
+.lineui-3d-cube-scan:before {
   content: "\e97d";
 }
-.shakil-lineui-3d-rotate:before {
+.lineui-3d-rotate:before {
   content: "\e97e";
 }
-.shakil-lineui-3d-square:before {
+.lineui-3d-square:before {
   content: "\e97f";
 }
-.shakil-lineui-3square:before {
+.lineui-3square:before {
   content: "\e980";
 }
-.shakil-lineui-24-support:before {
+.lineui-24-support:before {
   content: "\e981";
 }
-.shakil-lineui-activity:before {
+.lineui-activity:before {
   content: "\e982";
 }
-.shakil-lineui-add-circle:before {
+.lineui-add-circle:before {
   content: "\e983";
 }
